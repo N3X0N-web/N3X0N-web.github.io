@@ -1,35 +1,86 @@
-# N3X0N Portfolio Website
+# Developer Portfolio Template 🚀
 
-A personal portfolio site showcasing your YouTube channel, Spotify profile, Gamebanana mods, and work-in-progress projects.
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB) ![Node.js](https://img.shields.io/badge/Node%20js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white) ![npm](https://img.shields.io/badge/npm-CB3837?style=for-the-badge&logo=npm&logoColor=white) ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E) ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white) ![Sass](https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white)
 
-## 📋 Quick Start
+## What is this?
 
-This website is built with HTML, CSS, and JavaScript—no build tools needed!
+This simple portfolio template is designed to showcase your past projects, career history, skill sets, and more.
 
-### How to Edit
+View the [Demo](https://yujisatojr.github.io/react-portfolio-template/).
 
-**To update your links:**
+**This template is free to use, and no attribution is required.** You can fork or download this repository to customize it for your own use. Please don't forget to leave a ⭐ if you like this portfolio!
 
-1. Open `index.html` in a text editor (like Notepad, VS Code, or any editor)
-2. Find the links that say `YOUR_CHANNEL_HERE` or `YOUR_USERNAME_HERE`
-3. Replace them with your actual usernames/links:
-   - Line 42: Replace `YOUR_CHANNEL_HERE` with your YouTube channel URL
-   - Line 52: Replace `YOUR_SPOTIFY_USERNAME_HERE` with your Spotify username
-   - Line 67: Replace `YOUR_GAMEBANANA_USERNAME_HERE` with your Gamebanana username
+![screenshot](./src/assets//images/screenshot.png)
 
-**To edit project names:**
+## Features
 
-1. Find the "Work in Progress" section (around line 86)
-2. Change "Project Name Here" and "Another WIP Project" to your actual projects
-3. Update the descriptions and progress labels
+✅ Open source (free to use, no attribution required)  
+✅ Responsive design & mobile-friendly  
+✅ Supports both dark and light modes  
+✅ Highly customizable multi-component layout  
+✅ Built with modern technologies (React, TypeScript, JavaScript, and SCSS)  
 
-### Customization Guide
+## Quick Setup
 
-#### Change Colors
-Edit `styles.css` at the top of the file:
-```css
-:root {
-    --primary-color: #1DB954;    /* Main green/accent color */
-    --secondary-color: #191414;  /* Dark background */
-    --accent-color: #FF6B6B;     /* WIP section color */
-}
+1. Ensure you have [Node.js](https://nodejs.org/) installed. Check your installation by running:
+
+    ```bash
+    node -v
+    ```
+
+2. In the project directory, install dependencies:
+
+    ```bash
+    npm install
+    ```
+
+3. Start the development server:
+
+    ```bash
+    npm start
+    ```
+
+4. Open [http://localhost:3000](http://localhost:3000) to view the app in the browser.
+
+5. Customize the template by navigating to the `/src/components` directory. Modify texts, pictures, and other information as needed.
+
+The page will reload if you make edits, and you will see any lint errors in the console.
+
+If you are interested in creating a mockup image like the ones from the personal projects section, I recommend [Genmoo](https://gemoo.com/tools/browser-mockup-generator/). This website lets you generate sleek looking browser mockups for free.
+
+## Deployment
+
+You can choose your preferred service (e.g., [Netlify](https://www.netlify.com/), [Render](https://render.com/), [Heroku](https://www.heroku.com/)) for deployment. One of the easiest ways to host this portfolio is using GitHub Pages. Follow the instructions below for a production deploy.
+
+1. **Set Up GitHub Repository**
+
+    Create a new repository on GitHub for your portfolio app.
+
+2. **Configure `package.json`**
+
+    Edit the following properties in your `package.json` file:
+
+    ```json
+    {
+        "homepage": "https://yourusername.github.io/your-repo-name",
+        "scripts": {
+            "predeploy": "npm run build",
+            "deploy": "gh-pages -d build",
+            ...
+        }
+    }
+    ```
+
+    Replace `yourusername` with your GitHub username and `your-repo-name` with the name of your GitHub repository.
+
+3. **Deploy to GitHub Pages**
+
+    Run the following command to deploy your app:
+
+    ```bash
+    npm run deploy
+    ```
+
+4. **Access Your Deployed App**
+
+    After successfully deploying, you can access your app at `https://yourusername.github.io/your-repo-name`.
